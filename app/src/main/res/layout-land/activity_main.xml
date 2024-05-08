@@ -22,7 +22,6 @@
         app:layout_constraintEnd_toEndOf="@+id/etInput" />
 
     <EditText
-        android:drawableEnd="@drawable/baseline_backspace_24"
         android:drawablePadding="16dp"
         android:id="@+id/etInput"
         android:layout_width="0dp"
@@ -62,7 +61,7 @@
             <ImageButton
                 android:id="@+id/btn_backspace"
                 android:layout_width="70dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:background="@drawable/button_bg_arithmatic"
                 android:elevation="8dp"
@@ -86,7 +85,7 @@
             <Button
                 android:id="@+id/btn_clear"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_clear"
@@ -103,7 +102,7 @@
             <Button
                 android:id="@+id/btn_paranthesis_open"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -120,7 +119,7 @@
             <Button
                 android:id="@+id/btn_paranthesis_close"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -138,7 +137,7 @@
             <Button
                 android:id="@+id/btn_divide"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -163,7 +162,7 @@
             <Button
                 android:id="@+id/btn_7"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -178,7 +177,7 @@
             <Button
                 android:id="@+id/btn_8"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -193,7 +192,7 @@
             <Button
                 android:id="@+id/btn_9"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -208,7 +207,7 @@
             <Button
                 android:id="@+id/btn_mutiply"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -229,7 +228,7 @@
             <Button
                 android:id="@+id/btn_6"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -244,7 +243,7 @@
             <Button
                 android:id="@+id/btn_5"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -259,7 +258,7 @@
             <Button
                 android:id="@+id/btn_4"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -274,7 +273,7 @@
             <Button
                 android:id="@+id/btn_subtract"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -295,7 +294,7 @@
             <Button
                 android:id="@+id/btn_3"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -310,7 +309,7 @@
             <Button
                 android:id="@+id/btn_2"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -325,7 +324,7 @@
             <Button
                 android:id="@+id/btn_1"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -340,7 +339,7 @@
             <Button
                 android:id="@+id/btn_add"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -361,7 +360,7 @@
             <Button
                 android:id="@+id/btn_zero"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="2"
                 android:background="@drawable/button_bg"
@@ -376,7 +375,7 @@
             <Button
                 android:id="@+id/btn_decimal"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg"
@@ -391,7 +390,7 @@
             <Button
                 android:id="@+id/btn_equal"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_equals"
@@ -433,7 +432,7 @@
             <Button
                 android:id="@+id/button"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -448,7 +447,7 @@
             <Button
                 android:id="@+id/button2"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -465,7 +464,7 @@
             <Button
                 android:id="@+id/button3"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -488,7 +487,7 @@
             <Button
                 android:id="@+id/button4"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -505,7 +504,7 @@
             <Button
                 android:id="@+id/button5"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -522,7 +521,7 @@
             <Button
                 android:id="@+id/button6"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -545,7 +544,7 @@
             <Button
                 android:id="@+id/button7"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -562,7 +561,7 @@
             <Button
                 android:id="@+id/button8"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -579,7 +578,7 @@
             <Button
                 android:id="@+id/button9"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -602,7 +601,7 @@
             <Button
                 android:id="@+id/button10"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -619,7 +618,7 @@
             <Button
                 android:id="@+id/button11"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -636,7 +635,7 @@
             <Button
                 android:id="@+id/button12"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -659,7 +658,7 @@
             <Button
                 android:id="@+id/button13"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -676,7 +675,7 @@
             <Button
                 android:id="@+id/button14"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
@@ -693,7 +692,7 @@
             <Button
                 android:id="@+id/button15"
                 android:layout_width="0dp"
-                android:layout_height="36dp"
+                android:layout_height="32dp"
                 android:layout_margin="6dp"
                 android:layout_weight="1"
                 android:background="@drawable/button_bg_arithmatic"
